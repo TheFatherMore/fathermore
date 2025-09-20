@@ -2,7 +2,8 @@ import type { I18nStrings } from "@/i18n/types";
 
 const baseStrings = {
   "site.title": "fathermore",
-  "site.desc": "A fork of AstroPaper theme with support for I18n",
+  "site.desc":
+    "Web dev & indie builder · Dad in a neurodiverse crew · Surabaya 🇮🇩",
 };
 
 const ENLocale: I18nStrings = {
