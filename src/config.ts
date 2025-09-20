@@ -1,8 +1,9 @@
 export const SITE = {
-  website: "https://astro-paper-i18n.netlify.app/", // replace this with your deployed domain
-  author: "Yousef Elsayed",
-  profile: "https://yousef8.github.io/astro-paper-i18n",
-  ogImage: "astropaper-og.jpg",
+  website: "https://fathermore.vercel.app/", // replace this with your deployed domain
+  author: "Ken",
+  profile:
+    "https://github.com/TheFatherMorehttps://yousef8.github.io/astro-paper-i18n",
+  ogImage: "fathermore.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
@@ -15,5 +16,5 @@ export const SITE = {
   },
   dynamicOgImage: true,
   lang: "en", // html lang code. Set this empty and default will be "en"
-  timezone: "Asia/Bangkok", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  timezone: "Asia/Jakarta", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 } as const;
