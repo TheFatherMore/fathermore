@@ -9,6 +9,7 @@ import { ClientRouter } from "astro:transitions";
 import { SITE } from "@/config";
 import "@/styles/global.css";
 import SpeedInsights from "@vercel/speed-insights/astro";
+import Analytics from "@vercel/analytics/astro";
 
 const t = translateFor(Astro.currentLocale);
 
@@ -164,6 +165,7 @@ const structuredData = {
 
     <script is:inline src="/toggle-theme.js"></script>
     <SpeedInsights />
+    <Analytics />
   </head>
   <body>
     <slot />
