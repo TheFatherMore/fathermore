@@ -1,7 +1,8 @@
 import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
 import IconBrandX from "@/assets/icons/IconBrandX.svg";
-import IconLinkedin from "@/assets/icons/IconLinkedin.svg";
+// import IconLinkedin from "@/assets/icons/IconLinkedin.svg";
+import IconMastodon from "@/assets/icons/IconMastodon.svg";
 import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
 import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
@@ -13,25 +14,31 @@ type Translator = ReturnType<typeof translateFor>;
 export const SOCIALS = [
   {
     name: "Github",
-    href: "https://github.com/yousef8/astro-paper-i18n",
+    href: "https://github.com/TheFatherMore",
     linkTitle: (t: Translator) => t("socials.github"),
     icon: IconGitHub,
   },
   {
-    name: "X",
-    href: "https://x.com/username",
-    linkTitle: (t: Translator) => t("socials.x"),
-    icon: IconBrandX,
+    name: "Mastodon",
+    href: "https://mas.to/@fathermore",
+    linkTitle: (t: Translator) => t("socials.mastodon"),
+    icon: IconMastodon,
   },
+  // {
+  //   name: "LinkedIn",
+  //   href: "https://www.linkedin.com/in/username/",
+  //   linkTitle: (t: Translator) => t("socials.linkedin"),
+  //   icon: IconLinkedin,
+  // },
   {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/username/",
-    linkTitle: (t: Translator) => t("socials.linkedin"),
-    icon: IconLinkedin,
+    name: "Telegram",
+    href: "https://t.me/thefathermore",
+    linkTitle: (t: Translator) => t("socials.telegram"),
+    icon: IconTelegram,
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:kenniko@proton.me",
     linkTitle: (t: Translator) => t("socials.mail"),
     icon: IconMail,
   },

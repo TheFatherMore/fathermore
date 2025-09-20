@@ -9,7 +9,7 @@ import IconMenuDeep from "@/assets/icons/IconMenuDeep.svg";
 import LinkButton from "./LinkButton.astro";
 import { SITE } from "@/config";
 import { translateFor, getRelativeLocalePath } from "@/i18n/utils";
-import LanguagePicker from "./LanguagePicker.astro";
+// import LanguagePicker from "./LanguagePicker.astro";
 
 const { pathname } = Astro.url;
 
@@ -47,9 +47,16 @@ const isActive = (path: string) => {
     >
       <a
         href={getRelativeLocalePath(currentLocale, "/")}
-        class="absolute py-1 text-2xl leading-7 font-semibold whitespace-nowrap sm:static"
+        class="group absolute py-1 text-2xl leading-7 font-semibold whitespace-nowrap sm:relative"
       >
-        {t("site.title")}
+        f+
+        <!-- {t("site.title")} -->
+        <!-- <span class="transition-opacity group-hover:opacity-0">f+</span>
+        <span
+          class="absolute left-0 opacity-0 transition-all group-hover:opacity-100"
+          >father<span class="text-accent">more</span>
+          <span class="font-serif font-normal opacity-60">MORE</span>
+        </span> -->
       </a>
       <nav
         id="nav-menu"
@@ -84,14 +91,14 @@ const isActive = (path: string) => {
               {t("posts")}
             </a>
           </li>
-          <li class="col-span-3">
+          <!-- <li class="col-span-3">
             <a
               href={getRelativeLocalePath(Astro.currentLocale, "/tags/")}
               class:list={{ "active-nav": isActive("/tags") }}
             >
               {t("tags")}
             </a>
-          </li>
+          </li> -->
           <li class="col-span-3">
             <a
               href={getRelativeLocalePath(Astro.currentLocale, "/about")}
@@ -134,9 +141,9 @@ const isActive = (path: string) => {
               <span class="sr-only">{t("search")}</span>
             </LinkButton>
           </li>
-          <li class="col-span-1 flex items-center justify-center">
+          <!-- <li class="col-span-1 flex items-center justify-center">
             <LanguagePicker />
-          </li>
+          </li> -->
           {
             SITE.lightAndDarkMode && (
               <li class="col-span-1 flex items-center justify-center">

@@ -6,8 +6,11 @@
 :root,
 html[data-theme="light"] {
   --background: #fdfdfd;
+  /* --background: #fdfdfd; */
   --foreground: #282728;
-  --accent: #006cac;
+  /* --accent: #006cac; */
+  --accent: #00a1db;
+  /* --accent: #00e773; */
   --muted: #e6e6e6;
   --border: #ece9e9;
 }
@@ -51,6 +54,21 @@ html[data-theme="dark"] {
   section,
   footer {
     @apply mx-auto max-w-3xl px-4;
+  }
+  kbd {
+    background-color: #eeeeee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow:
+      0 1px 1px rgb(0 0 0 / 0.2),
+      0 2px 0 0 rgb(255 255 255 / 0.7) inset;
+    color: #333333;
+    display: inline-block;
+    font-size: 0.85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
   }
 }
 

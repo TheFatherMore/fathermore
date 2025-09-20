@@ -39,8 +39,9 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     data-backurl={getRelativeLocalePath(locale, "/")}
   >
     <section id="hero" class="pt-8 pb-6">
-      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        {t("hero.title")}
+      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-6xl">
+        <!-- {t("hero.title")} -->
+         <span class="font-sans">Full</span><span class="font-serif font-normal opacity-60">⁃stack</span><span class="mx-1.5">🌐</span><kbd class="kbd">dev</kbd>
       </h1>
       <a
         target="_blank"
@@ -59,7 +60,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       <p>
         {t("hero.body")}
       </p>
-      <p class="mt-2">
+      <!-- <p class="mt-2">
         {t("hero.beforeReadme")}
         <LinkButton
           class="underline decoration-dashed underline-offset-4 hover:text-accent"
@@ -68,14 +69,14 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
           {t("hero.readme")}
         </LinkButton>
         {t("hero.afterReadme")}
-      </p>
+      </p> -->
       {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
           <div class="mt-4 flex flex-col sm:flex-row sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">
+            <mark class="me-2 mb-1 whitespace-nowrap sm:mb-0">
               {t("socialLinks")}:
-            </div>
+            </mark>
             <Socials />
           </div>
         )
