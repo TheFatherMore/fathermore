@@ -1,6 +1,6 @@
 ---
 author: Ken
-pubDatetime: 2025-09-21T12:38:00Z
+pubDatetime: 2025-09-20T18:34:36.803Z
 title: Cara Aman Kasih YouTube ke Anak
 slug: cara-aman-kasih-youtube-ke-anak
 featured: false
@@ -15,6 +15,8 @@ description: Jangan biarkan algoritma yang tentukan tontonan anak — kamu yang 
 Hati dan otak anak itu gampang banget terpengaruh oleh apa yang mereka lihat. Sekarang mayoritas tontonan anak ada di gadget — dan YouTube jadi salah satu yang paling sering dituju (bahkan sebelum TV tradisional bagi banyak anak). Kalau kita nggak atur, ada dua bahaya utama: konten toxic (video yang nggak pantas, clickbait menyeramkan, iklan yang nggak cocok) dan kecanduan (scroll & autoplay yang bikin nonton tanpa henti).
 
 > Fakta penting: persentase anak kecil yang nonton YouTube tiap hari meningkat dan rata-rata screen time anak kecil sekitar 2 — 2,5 jam per hari. [Common Sense Medai](https://www.commonsensemedia.org/sites/default/files/research/report/2025-common-sense-census-web-2.pdf)
+
+## Table of contents
 
 ## Kenapa download + airplane mode bisa membantu (inti idemu)
 
