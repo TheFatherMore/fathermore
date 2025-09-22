@@ -9,6 +9,7 @@ import IconMenuDeep from "@/assets/icons/IconMenuDeep.svg";
 import LinkButton from "./LinkButton.astro";
 import { SITE } from "@/config";
 import { translateFor, getRelativeLocalePath } from "@/i18n/utils";
+// import WordRotator from "./WordRotator.astro";
 // import LanguagePicker from "./LanguagePicker.astro";
 
 const { pathname } = Astro.url;
@@ -49,7 +50,8 @@ const isActive = (path: string) => {
         href={getRelativeLocalePath(currentLocale, "/")}
         class="group absolute py-1 text-2xl leading-7 font-semibold whitespace-nowrap sm:relative"
       >
-        f+
+        <!-- <WordRotator /> -->
+        f++
         <!-- {t("site.title")} -->
         <!-- <span class="transition-opacity group-hover:opacity-0">f+</span>
         <span
