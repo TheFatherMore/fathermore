@@ -83,7 +83,7 @@ body {
 <script>
   const words = document.querySelectorAll(".word");
   words.forEach(word => {
-    const letters = word.textContent.split("");
+    const letters = word.textContent?.split("") || [];
     word.textContent = "";
     letters.forEach(letter => {
       const span = document.createElement("span");

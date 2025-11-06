@@ -13,8 +13,11 @@ const ENLocale: I18nStrings = {
   //   "hero.body": `
   //         Hi, I’m Ken. I craft web things—front end, full stack, and playful microinteractions. This blog is where I jot experiments, lessons, and ideas while navigating life as a father in a vibrant, neurodiverse household. Currently living in Surabaya — as known as Indonesia’s “City of Heroes”.
   // `,
+  //   "hero.body": `
+  //         Hi, I’m Ken. I build for the web—front-end, full-stack, and the kind of microinteractions that make interfaces feel alive. This is where I share experiments, notes, and ideas while raising a family in a vibrant, neurodiverse home. Currently based in Surabaya, Indonesia’s “City of Heroes.”
+  // `,
   "hero.body": `
-        Hi, I’m Ken. I build for the web—front-end, full-stack, and the kind of microinteractions that make interfaces feel alive. This is where I share experiments, notes, and ideas while raising a family in a vibrant, neurodiverse home. Currently based in Surabaya, Indonesia’s “City of Heroes.”
+        Hi, I’m Ken. Engineering the web. This is where I share experiments, notes, and ideas while raising a family in a vibrant, neurodiverse home. Currently based in Surabaya, Indonesia’s “City of Heroes.”
 `,
   "hero.beforeReadme": "Read the blog posts or check",
   "hero.readme": "README",

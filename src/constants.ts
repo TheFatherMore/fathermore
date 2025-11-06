@@ -2,7 +2,7 @@ import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
 import IconBrandX from "@/assets/icons/IconBrandX.svg";
 // import IconLinkedin from "@/assets/icons/IconLinkedin.svg";
-import IconMastodon from "@/assets/icons/IconMastodon.svg";
+// import IconMastodon from "@/assets/icons/IconMastodon.svg";
 import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
 import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
@@ -18,12 +18,12 @@ export const SOCIALS = [
     linkTitle: (t: Translator) => t("socials.github"),
     icon: IconGitHub,
   },
-  {
-    name: "Mastodon",
-    href: "https://mas.to/@fathermore",
-    linkTitle: (t: Translator) => t("socials.mastodon"),
-    icon: IconMastodon,
-  },
+  // {
+  //   name: "Mastodon",
+  //   href: "https://mas.to/@fathermore",
+  //   linkTitle: (t: Translator) => t("socials.mastodon"),
+  //   icon: IconMastodon,
+  // },
   // {
   //   name: "LinkedIn",
   //   href: "https://www.linkedin.com/in/username/",

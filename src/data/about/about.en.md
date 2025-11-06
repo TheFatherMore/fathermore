@@ -4,7 +4,7 @@ title: "What I’m Working On"
 
 <details>
 <summary>What is this?</summary>
-<p>This page is a living snapshot of what has my attention right now—projects, experiments, and ideas in motion. It’s like an About page, but current. Inspired by <a href="https://nownownow.com/about" target="_blank">nownownow.com</a>.</p>
+<p>This page is a living snapshot of what has my attention right now—projects, experiments, and ideas. It’s like an About page, but current. Inspired by <a href="https://nownownow.com/about" target="_blank">nownownow.com</a>.</p>
 </details>
 
 <!-- Bismillah, I write to Remember
@@ -29,11 +29,11 @@ This theme is self-documented \_ which means articles/posts in this theme can al
 
 ## Current Focus
 
-### Evolving from Full-Time Freelance to Indiepreneur
+### Switching from Full-Time Freelance to Indiepreneur
 
 I’m working on the mindset, business structure, and product thinking needed to shift from doing client work full time toward building products with lasting value.
 
-### Mining insights on <a href="https://www.indiehackers.com/starting-up" target="_blank" rel="noopener noreferrer">IndieHackers</a>
+### Digging insights on <a href="https://www.indiehackers.com/starting-up" target="_blank" rel="noopener noreferrer">IndieHackers</a>
 
 Reading stories, trying experiments, and absorbing lessons from other indie makers. Their successes and failures are gold for figuring out what works.
 
@@ -42,16 +42,16 @@ Reading stories, trying experiments, and absorbing lessons from other indie make
 I enjoy watching <a href="https://www.youtube.com/@starterstory" target="_blank" rel="noopener noreferrer">StarterStory’s YouTube channel</a>
 — real-founder stories, tactical tips, and startup trajectories. It’s filling in gaps in my knowledge about growth, revenue models, and scaling. Their transparency helps me map out practical steps for growth and keeps my own ambitions grounded.
 
-### Exploring Svelte
+### Enjoy Playing Svelte
 
 I’m experimenting with Svelte for new projects and trying to understand its unique reactive model, component design, and performance advantages. The goal isn’t just to learn another framework, but to see if it can help me ship faster, leaner products.
 
-## Also on My Desk
+<!-- ## Also on My Desk
 
 - Prototyping small microinteractions and UX details in side projects.
 - Sketching a personal product roadmap toward a self-funded launch.
-- Balancing code, design, and dad life in our neurodiverse household.
+- Balancing code, design, and dad life in my neurodiverse household. -->
 
-## Other
+## Books
 
 Currently reading <a href="https://www.amazon.com/Whole-Brain-Child-Revolutionary-Strategies-Developing/dp/0553386697" target="_blank" rel="noopener noreferrer">The Whole-Brain Child: 12 Revolutionary Strategies to Nurture Your Child's Developing Mind</a>
