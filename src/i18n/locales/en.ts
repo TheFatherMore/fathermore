@@ -60,7 +60,7 @@ const ENLocale: I18nStrings = {
   toggleLightAndDark: "Toggles light & dark",
   "pagination.prev": "Prev",
   "pagination.next": "Next",
-  "footer.text": "Copyright © {year} | All rights reserved",
+  "footer.text": "Copyright © {year} Ken",
   "date.published": "Published",
   "date.updated": "Updated",
   "date.month.1": "January",
